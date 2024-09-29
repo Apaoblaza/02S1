@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #1b1f21;
+}
+.flex-container {
+  display: flex;
+  flex: 0 0 25%;
+  margin: 0;
+  padding: 0;
+}
+menu,
+menu ul {
+  min-width: 25%;
+  min-height: 100vh;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.chat {
+  min-width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e8ebe4;
+}
+.chat img {
+  width: 25%;
+}
+
+.chat h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.chat p {
+  text-align: center;
+}
+/* parte de contactos */
+menu ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+menu img {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+}
+menu li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1rem;
+  padding-left: 2rem;
+  height: 4.5rem;
+  border-bottom: solid;
+  border-right: solid;
+  border-color: #e8ebe4;
+  gap: 1rem;
+}
+
+.contact-name h1 {
+  font-size: medium;
+  font-weight: 500;
+  margin: 0;
+}
+.contact-name p {
+  font-size: small;
+  margin: 0;
+  color: #828485;
+  font-size: smaller;
+}
+/* Particular del usuario*/
+
+.user {
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+}
+.user-img {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.user-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.user-img img {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* boton */
+
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  height: 6rem;
+}
+.boton button {
+  background-color: #a491d2;
+  padding: 1rem 5rem;
+  color: white;
+  border: none;
+}
+.boton button:hover {
+  background-color: #cdc3e6;
+}
+.boton button:active {
+  background-color: #bec1bb;
+}
